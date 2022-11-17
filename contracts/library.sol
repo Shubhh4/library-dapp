@@ -15,7 +15,7 @@ contract Library{
         bool completed;    //completed will track whether the reading is finished or not
     }
 
-    Book[] private bookList; // these act as the memory till now how many book is read
+    Book[] private bookList; //these act as the memory till now how many book is read
 
     mapping(uint=>address) bookToOwner; // these will be the mapping of the book id 
     //to the wallet address of the user adding the new book under their name
