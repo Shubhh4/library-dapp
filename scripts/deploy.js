@@ -8,7 +8,7 @@ const main = async() =>{
 
 const runMain = async() => {
     try {
-        //to catch the error
+        //to catch the errors
       await main();
       process.exit(0);
     } catch(error) {
