@@ -18,7 +18,7 @@ contract Library{
     Book[] private bookList; //these act as the memory till now how many book is read
 
     mapping(uint=>address) bookToOwner; // these will be the mapping of the book id 
-    //to the wallet address of the user adding the new book under their name
+    //to the wallet address of the user adding the new book under their names
 
     function addBook(string memory name, uint year,string memory author,bool completed) public{
         uint bookId = bookList.length;
