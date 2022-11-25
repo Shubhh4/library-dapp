@@ -12,7 +12,7 @@ contract Library{
         string name;
         uint year;
         string author;
-        bool completed;    //completed will tracks whether the reading is finished or not
+        bool completed;    //completed will track whether the reading is finished or not
     }
 
     Book[] private bookList; //these act as the memory till now how many book is read
