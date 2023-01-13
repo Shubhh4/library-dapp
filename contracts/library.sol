@@ -8,7 +8,7 @@ contract Library{
     event SetCompleted(uint bookId,bool completed);
     
     struct Book{
-        uint id;
+        uint256 id;
         string name;
         uint year;
         string author;
