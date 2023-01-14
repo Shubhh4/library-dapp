@@ -10,7 +10,7 @@ contract Library{
     struct Book{
         uint256 id;
         string name;
-        uint year;
+        uint256 year;
         string author;
         bool completed;    //completed will track whether the reading is finished or not
     }
