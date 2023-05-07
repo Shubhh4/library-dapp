@@ -4,7 +4,7 @@ const {ethers} = require("hardhat");
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
-//start with the tests the step to be taken
+//start with the test the step to be taken
 
 describe("Library Contract", function() {
   let Library;
